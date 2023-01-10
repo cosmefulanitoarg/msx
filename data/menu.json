@@ -10,6 +10,6 @@
         }, {
             "icon": "#18aa9c:airplay",
             "label": "Canales",
-			"data": "https://cosmefulanitoarg.github.io/msx/data/deportes.json"
+			"data": "https://cosmefulanitoarg.github.io/msx/data/sports.json"
         }]
 }
