@@ -1,0 +1,15 @@
+{
+    "headline": "Menu Style Example 2",
+    "style": "flat-separator",
+    "transparent": 2,
+    "background": "http://msx.benzac.de/media/wallpaper1.jpg",
+    "menu": [{
+            "type": "separator",
+            "label": "{col:#18aa9c}Category 1",
+            "lineColor": "#18aa9c"
+        }, {
+            "icon": "#18aa9c:airplay",
+            "label": "Canales",
+			"data": "https://cosmefulanitoarg.github.io/msx/data/deportes.json"
+        }]
+}
