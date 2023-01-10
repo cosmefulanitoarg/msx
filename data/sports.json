@@ -96,6 +96,10 @@
          "image": "https://sfntv.co/webp/logos/optimized/tvpublica.webp",
          "imageFiller": "smart",
          "action": "link:https://embed.futbollibre.lol/cvattv/?get=Q2FuYWw3"
-      }
+      },
+      {
+         "title": "Test",
+         "action": "link:http://sfntv.co"
+ }
    ]
 }
