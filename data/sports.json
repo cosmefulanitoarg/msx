@@ -100,6 +100,9 @@
       {
          "title": "Test",
          "action": "link:http://sfntv.co"
+ },      {
+         "title": "Test2",
+         "action": "link:http://futbollibre.lol"
  }
    ]
 }
