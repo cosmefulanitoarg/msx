@@ -107,7 +107,7 @@
       },
       {
          "title": "Test3",
-         "action": "execute:http://msxplayer.ru/msx/get-start-action?dictionary=http://cosmefulanitoarg.github.io/msx/data/lang.json",
+         "action": "execute:http://v4.msxplayer.ru/msx/get-start-action?dictionary=http://cosmefulanitoarg.github.io/msx/data/lang.json",
          "data": { "dictionary":"http://cosmefulanitoarg.github.io/msx/data/lang.json"}
       }
    ]
