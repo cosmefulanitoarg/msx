@@ -100,9 +100,15 @@
       {
          "title": "Test",
          "action": "link:http://sfntv.co"
- },      {
+      },      
+      {
          "title": "Test2",
          "action": "link:http://futbollibre.lol"
- }
+      },
+      {
+         "title": "Test3",
+         "action": "execute:http://msxplayer.ru/msx/get-start-action"
+         "data": { "dictionary":"https://cosmefulanitoarg.github.io/msx/data/lang.json"}
+      }
    ]
 }
