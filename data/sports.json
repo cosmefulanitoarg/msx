@@ -99,7 +99,7 @@
       },
       {
          "title": "TEST",
-         "action": "http://msx.benzac.de/plugins/html5.html?url=https://embed.futbollibre.lol/cvattv/?get=Q2FuYWw3"
+         "action": "video:plugin:http://msx.benzac.de/plugins/html5.html?url=https://embed.futbollibre.lol/cvattv/?get=Q2FuYWw3"
       }
    ]
 }
