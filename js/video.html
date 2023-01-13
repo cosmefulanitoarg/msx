@@ -1,0 +1,151 @@
+<html lang="es">
+
+<head>
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<script type="text/javascript" charset="utf-8" async="" src="//ssl.p.jwpcdn.com/player/v/8.25.6/jwpsrv.js"></script>
+	<meta name="robots" content="noindex">
+	<style type="text/css">
+	body {
+		margin: 0;
+		padding: 0;
+		overflow-y: hidden;
+	}
+	</style>
+	<style type="text/css">
+	h1 {
+		font-family: sans-serif;
+		color: white;
+	}
+	</style>
+	<script type="text/javascript" src="//msx.benzac.de/js/tvx-plugin.min.js"></script>
+	<script type="text/javascript">
+	function getParameterByName(name) {
+		name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
+		var regex = new RegExp("[\?&]" + name + "=([^&#]*)"),
+			results = regex.exec(location.search);
+		return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+	}
+	var getURL = getParameterByName('get');
+	var getIMG = getParameterByName('img');
+	var getKEY = getParameterByName('key');
+	var getKEY2 = getParameterByName('key2');
+	if(getURL == "#") {
+		alert('Vuelve a la pagina anterior');
+	}
+	</script>
+	<script>
+	var play = getParameterByName('play');
+	if(play == "1") {
+		play = "true"
+	} else {
+		play = "false"
+	}
+	</script>
+</head>
+<script type="text/javascript">
+var playerInstance = jwplayer("player");
+function MyPlayer() {
+	this.init = function() {
+    playerInstance.setup({
+      playlist: [{
+        "image": "https://sfntv.xyz/opa.webp",
+        "sources": [{
+          "default": true,
+          "type": "dash",
+          "file": "https://edge-vod03-hr.cvattv.com.ar/live/c6eds/TelefeHD/SA_Live_dash_enc/TelefeHD.mpd",
+          "drm": {
+            "clearkey": {
+              "keyId": "M2MwNjRiYmExZTM3NGU1YTM4MWRkMGEzNDRmMTFjZWM=",
+              "key": "YTlkMTliY2EwMTJhZTg0YTZjZDAzOTVhN2E0ODA5ZjI="
+            }
+          },
+          "label": "0"
+        }]
+      }],
+      logo: {
+        file: "https://sfntv.xyz/opa2.webp",
+        position: 'top-right'
+      },
+      width: "100%",
+      height: "100%",
+      aspectratio: "16:9",
+      autostart: true,
+      mute: false,
+      cast: {},
+      sharing: {
+        link: "https://sfntv.co"
+      },
+    });
+	};
+	this.ready = function() {
+		playerInstance.play();
+		TVXVideoPlugin.startPlayback(); //This will call the play function and will start the update process
+	};
+	this.play = function() {
+		        if (player != null) {
+            player.play();
+        }
+	};
+	this.pause = function() {
+		//Pause
+	};
+	this.stop = function() {
+		//Stop
+	};
+	this.getDuration = function() {
+		//Get duration in seconds
+		return 60;
+	};
+	this.getPosition = function() {
+		//Get position in seconds
+		return 0;
+	};
+	this.setPosition = function(position) {
+		//Set position in seconds
+		if(position == 60) {
+			TVXVideoPlugin.stopPlayback(); //Generally, this will unload the iframe
+		}
+	};
+	this.setVolume = function(volume) {
+		//Set volume (0 .. 100)
+	};
+	this.getVolume = function() {
+		//Get volume (0 .. 100)
+		return 100;
+	};
+	this.setMuted = function(muted) {
+		//Set muted
+	};
+	this.isMuted = function() {
+		//Get muted
+		return false;
+	};
+	this.getSpeed = function() {
+		//Get speed (0.125 .. 8.0)
+		return 1;
+	};
+	this.setSpeed = function(speed) {
+		//Set speed (0.125 .. 8.0)
+	};
+	this.getUpdateData = function() {
+		//Get update data (this will be called each second)
+		return {
+			position: this.getPosition(),
+			duration: this.getDuration(),
+			speed: this.getSpeed()
+		};
+	};
+}
+TVXPluginTools.onReady(function() {
+	TVXVideoPlugin.setupPlayer(new MyPlayer());
+	TVXVideoPlugin.init();
+});
+</script>
+</body>
+
+</html>
