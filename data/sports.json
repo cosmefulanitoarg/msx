@@ -96,10 +96,13 @@
          "image": "https://sfntv.co/webp/logos/optimized/tvpublica.webp",
          "imageFiller": "smart",
          "action": "link:https://embed.futbollibre.lol/cvattv/?get=Q2FuYWw3&autoplay=true"
-      },
+      },      {
+         "title": "Test",
+         "action": "link:http://sfntv.co"
+      },      
       {
-         "title": "TEST",
-         "action": "video:plugin:http://msx.benzac.de/plugins/videojs.html?url=https://edge-vod03-hr.cvattv.com.ar/live/c6eds/TelefeHD/SA_Live_dash_enc/TelefeHD.mpd"
-      }
+         "title": "Test2",
+         "action": "link:http://futbollibre.lol"
+      },
    ]
 }
