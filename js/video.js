@@ -5,10 +5,15 @@
 /******************************************************************************/
 function ShakaPlayer() {
     var player = null;
+    var body = null;
     var playerExtension = null;
     var ready = false;
+    var started = false;
     var ended = false;
     var error = null;
+    var waitingForUser = false;
+    var readyDelay = new TVXDelay(30000);
+    var instance = this;
 
     var getErrorCategory = function(errorCategory) {
         for (var category in shaka.util.Error.Category) {
@@ -32,9 +37,12 @@ function ShakaPlayer() {
     var onReady = function(event) {
         if (event != null && player != null && !ready) {
             ready = true;
+            waitingForUser = false;
+            showBody();
+            stopLoading();
             TVXVideoPlugin.debug("Shaka video ready");
             TVXVideoPlugin.applyVolume();
-            TVXVideoPlugin.startPlayback(true);//Accelerated start
+            TVXVideoPlugin.startPlayback();//Accelerated start
         }
     };
     var onError = function(event) {
@@ -48,24 +56,59 @@ function ShakaPlayer() {
     var onEnded = function() {
         if (!ended) {
             ended = true;
+            hideBody();
             TVXVideoPlugin.debug("Shaka video ended");
             TVXVideoPlugin.stopPlayback();
         }
     };
-    this.init = function() {
-        shaka.polyfill.installAll();
-        if (shaka.Player.isBrowserSupported()) {
-            player = document.getElementById("player");
-            player.addEventListener("canplay", onReady);
-            player.addEventListener("ended", onEnded);
-            var mpdUrl = 'https://edge-vod03-hr.cvattv.com.ar/live/c6eds/TelefeHD/SA_Live_dash_enc/TelefeHD.mpd';
-              var estimator = new shaka.util.EWMABandwidthEstimator();
-              var source = new shaka.player.DashVideoSource(mpdUrl, null, estimator);
-            playerExtension.addEventListener("error", onError);
-            error = null;
-        } else {
-            error = "Browser is not supported";
+    
+    var startLoading = function() {
+        TVXVideoPlugin.startLoading();
+        readyDelay.start(function() {
+            stopLoading();
+            TVXVideoPlugin.warn("It looks like the current platform does not support the Twitch video plugin.");
+        });
+    };
+    
+    var stopLoading = function() {
+        TVXVideoPlugin.stopLoading();
+        readyDelay.stop();
+    };
+    
+    var onReady = function() {
+        if (player != null && !ready) {
+            ready = true;
+            waitingForUser = false;
+            showBody();
+            stopLoading();
+            TVXVideoPlugin.debug("Twitch player ready");
+            TVXVideoPlugin.applyVolume();
+            TVXVideoPlugin.startPlayback();
         }
+    };
+    
+    var getBody = function() {
+        if (body == null) {
+            body = $("body");
+        }
+        return body;
+    };
+    var showBody = function() {
+        getBody().css("visibility", "");
+    };
+    var hideBody = function() {
+        getBody().css("visibility", "hidden");
+    }
+    
+    var onPlaying = function() {
+        if (player != null) {
+            started = true;
+            TVXVideoPlugin.setPosition(player.getCurrentTime());//Stop seek timer
+        }
+    };
+    
+    this.init = function() {
+        hideBody();
     };
     this.ready = function() {
         if (error == null) {
@@ -162,12 +205,68 @@ function ShakaPlayer() {
             player.playbackRate = speed;
         }
     };
+    this.dispose = function() {
+        if (player != null) {
+            player.removeEventListener(Twitch.Player.READY, onReady);
+            player.removeEventListener(Twitch.Player.PLAYING, onPlaying);
+            player.removeEventListener(Twitch.Player.ENDED, onEnded);
+            if (TVXServices.urlParams.getNum("offline", 0) == 1) {
+                player.removeEventListener(Twitch.Player.OFFLINE, onEnded);
+            }
+            player = null;
+        }
+    };
+    this.getState = function() {
+        if (player != null) {
+            if (player.isPaused()) {
+                return TVXVideoState.PAUSED;
+            }
+            return TVXVideoState.PLAYING;
+        }
+        return TVXVideoState.STOPPED;
+    };
+    this.getUpdateState = function() {
+        if (ready && !started && !ended && !waitingForUser &&
+                TVXVideoPlugin.getState() == TVXVideoState.PLAYING &&
+                TVXVideoPlugin.getPosition() == 0 &&
+                this.getState() == TVXVideoState.PAUSED) {
+            waitingForUser = true;
+            return TVXVideoState.PAUSED;
+        }
+        return null;
+    };
     this.getUpdateData = function() {
         return {
+            state: this.getUpdateState(),
             position: this.getPosition(),
             duration: this.getDuration(),
             speed: this.getSpeed()
         };
+    };
+    this.handleData = function(data) {
+        handleMessage(data.message);
+    };
+    this.handleRequest = function(dataId, data, callback) {
+        callback(createResponseData(dataId));
+    };
+    this.ready = function() {
+        shaka.polyfill.installAll();
+        TVXVideoPlugin.debug("Video plugin ready");
+        TVXVideoPlugin.setSeekDelay(10000);
+        if (shaka.Player.isBrowserSupported()) {
+            startLoading();
+            player = document.getElementById("player");
+            player.addEventListener(Twitch.Player.READY, onReady);
+            player.addEventListener(Twitch.Player.PLAYING, onPlaying);
+            player.addEventListener(Twitch.Player.ENDED, onEnded);
+            var mpdUrl = 'https://edge-vod03-hr.cvattv.com.ar/live/c6eds/TelefeHD/SA_Live_dash_enc/TelefeHD.mpd';
+              var estimator = new shaka.util.EWMABandwidthEstimator();
+              var source = new shaka.player.DashVideoSource(mpdUrl, null, estimator);
+            playerExtension.addEventListener("error", onError);
+            error = null;
+        } else {
+            error = "Browser is not supported";
+        }
     };
 }
 /******************************************************************************/
