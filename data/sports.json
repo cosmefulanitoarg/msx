@@ -98,7 +98,7 @@
          "action": "link:https://embed.futbollibre.lol/cvattv/?get=Q2FuYWw3&autoplay=true"
       },      {
          "title": "Test",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.js?url=http://cosmefulanitoarg.github.io/msx/js/video.js"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html"
       },      
       {
          "title": "Test2",
