@@ -98,7 +98,7 @@
          "action": "link:https://embed.futbollibre.lol/cvattv/?get=Q2FuYWw3&autoplay=true"
       },      {
          "title": "Test",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.js?url=https://edge-vod03-hr.cvattv.com.ar/live/c6eds/TelefeHD/SA_Live_dash_enc/TelefeHD.mpd"
       },      
       {
          "title": "Test2",
