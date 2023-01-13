@@ -1,93 +1,99 @@
 /******************************************************************************/
-//Video.js v0.0.2 (lib v7.20.1)
-//(c) 2022 Benjamin Zachey
-//related API: https://docs.videojs.com/player
+//ShakaPlayer v0.0.3 (lib v4.1.2)
+//(c) 2020 Benjamin Zachey
+//related API: https://shaka-player-demo.appspot.com/docs/api/index.html
 /******************************************************************************/
-function VideoJsPlayer() {
+function ShakaPlayer() {
     var player = null;
+    var playerExtension = null;
     var ready = false;
     var ended = false;
+    var error = null;
 
-    var onReady = function() {
-        if (player != null && !ready) {
-            ready = true;
-            TVXVideoPlugin.debug("Video.js ready");
-            TVXVideoPlugin.applyVolume();
-            TVXVideoPlugin.stopLoading();
-            TVXVideoPlugin.startPlayback(true);//Accelerated start
+    var getErrorCategory = function(errorCategory) {
+        for (var category in shaka.util.Error.Category) {
+            if (shaka.util.Error.Category[category] === errorCategory) {
+                return category;
+            }
         }
+        return "Unknown Category";
     };
-    var getErrorText = function(code) {
-        if (code == 1) {
-            //The fetching of the associated resource was aborted by the user's request.
-            return "Playback Aborted";
-        } else if (code == 2) {
-            //Some kind of network error occurred which prevented the media from being successfully fetched, despite having previously been available.
-            return "Network Error";
-        } else if (code == 3) {
-            //Despite having previously been determined to be usable, an error occurred while trying to decode the media resource, resulting in an error.
-            return "Media Decode Error";
-        } else if (code == 4) {
-            //The associated resource or media provider object (such as a MediaStream) has been found to be unsuitable.
-            return "Source Not Supported";
+    var getErrorName = function(errorCode) {
+        for (var code in shaka.util.Error.Code) {
+            if (shaka.util.Error.Code[code] === errorCode) {
+                return code;
+            }
         }
         return "Unknown Error";
     };
-    var getErrorMessage = function(code, message) {
-        var msg = code + ": " + getErrorText(code);
-        if (TVXTools.isFullStr(message)) {
-            msg += ": " + message;
-        }
-        return msg;
+    var onLoaded = function() {
+        TVXVideoPlugin.debug("Shaka video loaded");
     };
-    var onError = function() {
-        if (player != null) {
-            var error = player.error();
-            if (error != null) {
-                TVXVideoPlugin.error("Video.js error: " + getErrorMessage(error.code, error.message));
-                TVXVideoPlugin.stopLoading();
-            }
+    var onReady = function(event) {
+        if (event != null && player != null && !ready) {
+            ready = true;
+            TVXVideoPlugin.debug("Shaka video ready");
+            TVXVideoPlugin.applyVolume();
+            TVXVideoPlugin.startPlayback(true);//Accelerated start
+        }
+    };
+    var onError = function(event) {
+        if (event != null && event.detail != null) {
+            event = event.detail;
+        }
+        if (event != null && event.code != null) {
+            TVXVideoPlugin.error("Shaka error: " + getErrorCategory(event.category) + ": " + event.code + ": " + getErrorName(event.code));
         }
     };
     var onEnded = function() {
         if (!ended) {
             ended = true;
-            TVXVideoPlugin.debug("Video.js ended");
+            TVXVideoPlugin.debug("Shaka video ended");
             TVXVideoPlugin.stopPlayback();
         }
     };
     this.init = function() {
-        player = videojs("player", {
-            //width: TVXVideoPlugin.getWidth(),
-            //height: TVXVideoPlugin.getHeight()
-            width: window.innerWidth,
-            height: window.innerHeight
-        });
-        player.on("loadedmetadata", onReady);
-        player.on("canplay", onReady);
-        player.on("error", onError);
-        player.on("ended", onEnded);
+        shaka.polyfill.installAll();
+        if (shaka.Player.isBrowserSupported()) {
+            player = document.getElementById("player");
+            player.addEventListener("canplay", onReady);
+            player.addEventListener("ended", onEnded);
+            var mpdUrl = 'https://edge-vod03-hr.cvattv.com.ar/live/c6eds/TelefeHD/SA_Live_dash_enc/TelefeHD.mpd';
+              var estimator = new shaka.util.EWMABandwidthEstimator();
+              var source = new shaka.player.DashVideoSource(mpdUrl, null, estimator);
+            playerExtension.addEventListener("error", onError);
+            error = null;
+        } else {
+            error = "Browser is not supported";
+        }
     };
     this.ready = function() {
-        if (player != null) {
-            TVXVideoPlugin.debug("Video.js plugin ready");
-            var url = TVXServices.urlParams.get("url");
-            if (TVXTools.isFullStr(url)) {
-                TVXVideoPlugin.startLoading();
-                player.ready(function() {
-                    player.src({ src: url, type: 'application/dash+xml'});
-                });
+        if (error == null) {
+            if (player != null && playerExtension != null) {
+                TVXVideoPlugin.debug("Video plugin ready");
+                var url = TVXServices.urlParams.get("url");
+                if (TVXTools.isFullStr(url)) {
+                    playerExtension.load(url).then(onLoaded).catch(onError);
+                } else {
+                    TVXVideoPlugin.warn("Shaka URL is missing or empty");
+                }
             } else {
-                TVXVideoPlugin.warn("Video.js URL is missing or empty");
+                TVXVideoPlugin.error("Shaka player is not initialized");
             }
         } else {
-            TVXVideoPlugin.error("Video.js player is not initialized");
+            TVXVideoPlugin.error("Shaka error: " + error);
         }
     };
     this.dispose = function() {
         if (player != null) {
-            player.dispose();
+            player.removeEventListener("canplay", onReady);
+            player.removeEventListener("ended", onEnded);
             player = null;
+        }
+        if (playerExtension != null) {
+            playerExtension.removeEventListener("error", onError);
+            playerExtension.destroy();
+            playerExtension = null;
         }
     };
     this.play = function() {
@@ -102,57 +108,58 @@ function VideoJsPlayer() {
     };
     this.stop = function() {
         if (player != null) {
+            //Note: Html5 player does not support stop -> use pause
             player.pause();
         }
     };
     this.getDuration = function() {
         if (player != null) {
-            return player.duration();
+            return player.duration;
         }
         return 0;
     };
     this.getPosition = function() {
         if (player != null) {
-            return player.currentTime();
+            return player.currentTime;
         }
         return 0;
     };
     this.setPosition = function(position) {
         if (player != null) {
-            player.currentTime(position);
+            player.currentTime = position;
         }
     };
     this.setVolume = function(volume) {
         if (player != null) {
-            player.volume(volume / 100);
+            player.volume = volume / 100;
         }
     };
     this.getVolume = function() {
         if (player != null) {
-            return player.volume() * 100;
+            return player.volume * 100;
         }
         return 100;
     };
     this.setMuted = function(muted) {
         if (player != null) {
-            player.muted(muted);
+            player.muted = muted;
         }
     };
     this.isMuted = function() {
         if (player != null) {
-            return player.muted();
+            return player.muted;
         }
         return false;
     };
     this.getSpeed = function() {
         if (player != null) {
-            return player.playbackRate();
+            return player.playbackRate;
         }
         return 1;
     };
     this.setSpeed = function(speed) {
         if (player != null) {
-            player.playbackRate(speed);
+            player.playbackRate = speed;
         }
     };
     this.getUpdateData = function() {
@@ -169,7 +176,7 @@ function VideoJsPlayer() {
 //Setup
 /******************************************************************************/
 TVXPluginTools.onReady(function() {
-    TVXVideoPlugin.setupPlayer(new VideoJsPlayer());
+    TVXVideoPlugin.setupPlayer(new ShakaPlayer());
     TVXVideoPlugin.init();
 });
 /******************************************************************************/
