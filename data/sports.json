@@ -99,7 +99,7 @@
       },
       {
          "title": "TEST",
-         "action": "Video:plugin:http://msx.benzac.de/plugins/dash.html?url=https://edge-vod03-hr.cvattv.com.ar/live/c6eds/TelefeHD/SA_Live_dash_enc/TelefeHD.mpd"
+         "action": "video:plugin:http://msx.benzac.de/plugins/dash.html?url=https://edge-vod03-hr.cvattv.com.ar/live/c6eds/TelefeHD/SA_Live_dash_enc/TelefeHD.mpd"
       }
    ]
 }
