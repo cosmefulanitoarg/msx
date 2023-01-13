@@ -63,7 +63,7 @@ function ShakaPlayer() {
               drm: {
                 // First value is the key-id, second value is the encryption key
                 clearKeys: {
-                  'M2MwNjRiYmExZTM3NGU1YTM4MWRkMGEzNDRmMTFjZWM=': 'YTlkMTliY2EwMTJhZTg0YTZjZDAzOTVhN2E0ODA5ZjI='
+                  '3c064bba1e374e5a381dd0a344f11cec': 'a9d19bca012ae84a6cd0395a7a4809f2'
                 }
               }
             });
