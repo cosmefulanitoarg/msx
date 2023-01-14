@@ -102,7 +102,7 @@
       },      
       {
          "title": "Test2",
-         "action": "video:plugin:http://cosmefulanitoarg.github.io/msx/js/video.html"
+         "action": "video:plugin:http://cosmefulanitoarg.github.io/msx/js/video.html?url=https://edge-vod03-hr.cvattv.com.ar/live/c6eds/TelefeHD/SA_Live_dash_enc/TelefeHD.mpd"
       }
    ]
 }
