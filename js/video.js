@@ -9,6 +9,7 @@ function ShakaPlayer() {
     var ready = false;
     var ended = false;
     var error = null;
+    var mpd = null;
 
     var getErrorCategory = function(errorCategory) {
         for (var category in shaka.util.Error.Category) {
@@ -83,9 +84,11 @@ function ShakaPlayer() {
         if (error == null) {
             if (player != null && playerExtension != null) {
                 TVXVideoPlugin.debug("Video plugin ready");
-                var url = atob(TVXServices.urlParams.get("get"));
-                if (TVXTools.isFullStr(url)) {
-                    playerExtension.load(url).then(onLoaded).catch(onError);
+                if(mpd == null){
+                    mpd = atob(TVXServices.urlParams.get("get"));
+                }
+                if (TVXTools.isFullStr(mpd)) {
+                    playerExtension.load(mpd).then(onLoaded).catch(onError);
                 } else {
                     TVXVideoPlugin.warn("Shaka URL is missing or empty");
                 }
@@ -193,7 +196,7 @@ function ShakaPlayer() {
         else
             number = 3;
 
-        var mpd = "https://edge-live14-hr.cvattv.com.ar/live/c"+number+"eds/"+atob(getURL)+"/SA_Live_dash_enc/"+atob(getURL)+".mpd";
+        mpd = "https://edge-live14-hr.cvattv.com.ar/live/c"+number+"eds/"+atob(getURL)+"/SA_Live_dash_enc/"+atob(getURL)+".mpd";
 
         if (getURL == "RVNQTjJIRA")
         {
