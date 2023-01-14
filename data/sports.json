@@ -23,7 +23,7 @@
          "title": "TYC SPORTS",
          "image": "https://sfntv.co/webp/logos/optimized/tyc.webp",
          "imageFiller": "smart",
-         "action": "video:plugin:https://embed.futbollibre.lol/cvattv/?get=VE5UX1Nwb3J0c19IRA&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=VE5UX1Nwb3J0c19IRA&play=1"
       },
       {
          "title": "DIRECTV SPORTS",
@@ -95,7 +95,7 @@
          "title": "TV PUBLICA",
          "image": "https://sfntv.co/webp/logos/optimized/tvpublica.webp",
          "imageFiller": "smart",
-         "action": "video:plugin:https://embed.futbollibre.lol/cvattv/?get=Q2FuYWw3&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=Q2FuYWw3&play=1"
       }, 
       {
          "title": "Test.TELEFE",
