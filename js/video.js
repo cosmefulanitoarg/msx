@@ -63,7 +63,7 @@ function ShakaPlayer() {
               drm: {
                 // First value is the key-id, second value is the encryption key
                 clearKeys: {
-                  atob(TVXServices.urlParams.get("key")) : atob(TVXServices.urlParams.get("key2"))
+                  [atob(TVXServices.urlParams.get("key"))] : atob(TVXServices.urlParams.get("key2"))
                 }
               }
             });
