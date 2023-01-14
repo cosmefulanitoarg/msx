@@ -25,10 +25,8 @@
 	<script type="text/javascript" src="//msx.benzac.de/js/tvx-plugin.min.js"></script>
 	<script src="https://wa.cdn-surfline.com/quiver/0.19.0/scripts/jwplayer.js"></script><div id="player"></div>
 	<script type="text/javascript">
-		TVXPluginTools.onReady(function() {
 	TVXVideoPlugin.setupPlayer(new MyPlayer());
 	TVXVideoPlugin.init();
-});
 var player = jwplayer("player");
 function MyPlayer() {
 	this.init = function() {
