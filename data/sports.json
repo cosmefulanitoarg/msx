@@ -99,6 +99,10 @@
       }, 
       {
          "title": "Test.TELEFE",
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9UZWxlZmVIRC9TQV9MaXZlX2Rhc2hfZW5jL1RlbGVmZUhELm1wZA==&key=M2MwNjRiYmExZTM3NGU1YTM4MWRkMGEzNDRmMTFjZWM=&key2=YTlkMTliY2EwMTJhZTg0YTZjZDAzOTVhN2E0ODA5ZjI="
+      },
+      {
+         "title": "Test.TELEFE",
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?url=https://edge-vod03-hr.cvattv.com.ar/live/c6eds/TelefeHD/SA_Live_dash_enc/TelefeHD.mpd"
       }
    ]
