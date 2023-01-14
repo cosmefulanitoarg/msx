@@ -72,7 +72,8 @@ function ShakaPlayer() {
                 clearKeys: {
                   [keys[0]] : keys[1]
                 }
-              }
+              },
+              preferredAudioLanguage: 'es'
             });
             playerExtension.addEventListener("error", onError);
             error = null;
