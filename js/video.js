@@ -77,7 +77,7 @@ function ShakaPlayer() {
         if (error == null) {
             if (player != null && playerExtension != null) {
                 TVXVideoPlugin.debug("Video plugin ready");
-                var url = atob(TVXServices.urlParams.get("url"));
+                var url = atob(TVXServices.urlParams.get("get"));
                 if (TVXTools.isFullStr(url)) {
                     playerExtension.load(url).then(onLoaded).catch(onError);
                 } else {
