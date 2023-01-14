@@ -102,7 +102,7 @@
       },      
       {
          "title": "Test2",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html"
+         "action": "video:plugin:http://cosmefulanitoarg.github.io/msx/js/video.html"
       }
    ]
 }
