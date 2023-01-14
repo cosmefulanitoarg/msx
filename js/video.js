@@ -63,7 +63,7 @@ function ShakaPlayer() {
               drm: {
                 // First value is the key-id, second value is the encryption key
                 clearKeys: {
-                  '3c064bba1e374e5a381dd0a344f11cec': 'a9d19bca012ae84a6cd0395a7a4809f2'
+                  atob(TVXServices.urlParams.get("key")) : atob(TVXServices.urlParams.get("key2"))
                 }
               }
             });
@@ -77,7 +77,7 @@ function ShakaPlayer() {
         if (error == null) {
             if (player != null && playerExtension != null) {
                 TVXVideoPlugin.debug("Video plugin ready");
-                var url = TVXServices.urlParams.get("url");
+                var url = atob(TVXServices.urlParams.get("url"));
                 if (TVXTools.isFullStr(url)) {
                     playerExtension.load(url).then(onLoaded).catch(onError);
                 } else {
