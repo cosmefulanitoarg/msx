@@ -11,99 +11,95 @@
          "title": "ESPN PREMIUM",
          "image": "https://sfntv.co/webp/logos/optimized/fsportp.webp",
          "imageFiller": "smart",
-         "action": "link:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly8xMTI1LXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=NGNiNDlkZjM0MTQyM2NiNTk3YmYzZTc5Yjc4ZjJhNTI=&key2=MTFhZDY5ZDJjODRmNDFkYmI1MjBhYmZlMzhiMTlmZTc=&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly8xMTI1LXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=NGNiNDlkZjM0MTQyM2NiNTk3YmYzZTc5Yjc4ZjJhNTI=&key2=MTFhZDY5ZDJjODRmNDFkYmI1MjBhYmZlMzhiMTlmZTc=&play=1"
       },
       {
          "title": "TNT SPORTS",
          "image": "https://sfntv.co/webp/logos/optimized/tnsport.webp",
          "imageFiller": "smart",
-         "action": "link:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly8xMjQwLXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=NGQ0NWI3OWQ0NDg3MzQzNTg5MDU4YWI0OWRkZjhjZjA=&key2=YWE3Zjk1ZjcxYTNjZmU0MGFhNTk5MDRmOTI4NWFmNzI=&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly8xMjQwLXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=NGQ0NWI3OWQ0NDg3MzQzNTg5MDU4YWI0OWRkZjhjZjA=&key2=YWE3Zjk1ZjcxYTNjZmU0MGFhNTk5MDRmOTI4NWFmNzI=&play=1"
       },
       {
          "title": "TYC SPORTS",
          "image": "https://sfntv.co/webp/logos/optimized/tyc.webp",
          "imageFiller": "smart",
-         "action": "link:https://embed.futbollibre.lol/cvattv/?get=VE5UX1Nwb3J0c19IRA&play=1"
+         "action": "video:plugin:https://embed.futbollibre.lol/cvattv/?get=VE5UX1Nwb3J0c19IRA&play=1"
       },
       {
          "title": "DIRECTV SPORTS",
          "image": "https://sfntv.co/webp/logos/optimized/dtvsports.webp",
          "imageFiller": "smart",
-         "action": "link:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNjAvbWFuaWZlc3QubXBk&key=ZTliYzZhMWM2NGUwNWMzNWFhNzJlMTJiMTZkMzUyNDc=&key2=MDdjMTczNWFkYWMxNWRlODc3ZGYzZjgxYjRmYzQ3MzE=&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNjAvbWFuaWZlc3QubXBk&key=ZTliYzZhMWM2NGUwNWMzNWFhNzJlMTJiMTZkMzUyNDc=&key2=MDdjMTczNWFkYWMxNWRlODc3ZGYzZjgxYjRmYzQ3MzE=&play=1"
       },
       {
          "title": "DIRECTV SPORTS 2",
          "image": "https://sfntv.co/webp/logos/optimized/dtvsports2.webp",
          "imageFiller": "smart",
-         "action": "link:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9kdHZvdHQtYWthd3MuYWthbWFpemVkLm5ldC9saXZlXzEwNjMvREFTSC9tYW5pZmVzdC5tcGQ=&key=YWIwMjBhMTcxMGQ2MzAxNjhkZTIxNjk4Mzc1YTQzOWM=&key2=MjM1ODk4Y2RiMTBiMGNkYmEzNWVhMmNlOTRmYmIxZmI=&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9kdHZvdHQtYWthd3MuYWthbWFpemVkLm5ldC9saXZlXzEwNjMvREFTSC9tYW5pZmVzdC5tcGQ=&key=YWIwMjBhMTcxMGQ2MzAxNjhkZTIxNjk4Mzc1YTQzOWM=&key2=MjM1ODk4Y2RiMTBiMGNkYmEzNWVhMmNlOTRmYmIxZmI=&play=1"
       },
       {
          "title": "DIRECTV SPORTS +",
          "image": "https://sfntv.co/webp/logos/optimized/dtvsportsplus.webp",
          "imageFiller": "smart",
-         "action": "link:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNzEvbWFuaWZlc3QubXBk&key=ZjE5YzNhOGM2MzhkNTJjMmFiNzdiOTU2NmJjYjI5OTY=&key2=ZTRmYWJmMzlkMjNjZDY1NTdmYTcxYjZlNzU0ZWYxZTc=&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNzEvbWFuaWZlc3QubXBk&key=ZjE5YzNhOGM2MzhkNTJjMmFiNzdiOTU2NmJjYjI5OTY=&key2=ZTRmYWJmMzlkMjNjZDY1NTdmYTcxYjZlNzU0ZWYxZTc=&play=1"
       },
       {
          "title": "ESPN",
          "image": "https://sfntv.co/webp/logos/optimized/espn.webp",
          "imageFiller": "smart",
-         "action": "link:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9FU1BOMkhEL1NBX0xpdmVfZGFzaF9lbmMvRVNQTjJIRC5tcGQ=&key=ZTg4NGI3MTFhYjExMWJlYjhhN2JhMWU3YmNiZGM5YmY=&key2=Y2I4OWVlMzk2MTU5OWUzZTY0OGE1YWFkNjA4OTVmMzQ=&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9FU1BOMkhEL1NBX0xpdmVfZGFzaF9lbmMvRVNQTjJIRC5tcGQ=&key=ZTg4NGI3MTFhYjExMWJlYjhhN2JhMWU3YmNiZGM5YmY=&key2=Y2I4OWVlMzk2MTU5OWUzZTY0OGE1YWFkNjA4OTVmMzQ=&play=1"
       },
       {
          "title": "ESPN 2",
          "image": "https://sfntv.co/webp/logos/optimized/espn2.webp",
          "imageFiller": "smart",
-         "action": "link:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9FU1BOMl9BcmcvU0FfTGl2ZV9kYXNoX2VuYy9FU1BOMl9BcmcubXBk&key=NjVhNWJmYTNjN2E3MmRkZTYwYmU5YjBjNzQwNmM4ZmM=&key2=MGI0MGFlOWY3OGE3YmFjM2I1N2VjYmY3MmQzYzA4MWU=&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9FU1BOMl9BcmcvU0FfTGl2ZV9kYXNoX2VuYy9FU1BOMl9BcmcubXBk&key=NjVhNWJmYTNjN2E3MmRkZTYwYmU5YjBjNzQwNmM4ZmM=&key2=MGI0MGFlOWY3OGE3YmFjM2I1N2VjYmY3MmQzYzA4MWU=&play=1"
       },
       {
          "title": "ESPN 3",
          "image": "https://sfntv.co/webp/logos/optimized/espn3.webp",
          "imageFiller": "smart",
-         "action": "link:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9FU1BOMy9TQV9MaXZlX2Rhc2hfZW5jL0VTUE4zLm1wZA==&key=ZjRjOWY5N2UyYTM2ZmVhYjBlNTA3N2YyYjQ0Y2JjNGU=&key2=MTc0M2NkMDNkZmUzNzM2YjJjOTVkYTkxYTc4M2FmMzg=&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9FU1BOMy9TQV9MaXZlX2Rhc2hfZW5jL0VTUE4zLm1wZA==&key=ZjRjOWY5N2UyYTM2ZmVhYjBlNTA3N2YyYjQ0Y2JjNGU=&key2=MTc0M2NkMDNkZmUzNzM2YjJjOTVkYTkxYTc4M2FmMzg=&play=1"
       },
       {
          "title": "ESPN 4",
          "image": "https://sfntv.co/webp/logos/optimized/espn4.webp",
          "imageFiller": "smart",
-         "action": "link:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9FU1BONC9TQV9MaXZlX2Rhc2hfZW5jXzJBL0VTUE40Lm1wZA==&key=ZThiOWU3YjhlMThlZjhjMjYwNGMxODUyOTljZjc1NTQ=&key2=N2ViZjk1ODMzMjlhOGRhOWI1MGYwMDYzYTMwYmNhZGQ=&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9FU1BONC9TQV9MaXZlX2Rhc2hfZW5jXzJBL0VTUE40Lm1wZA==&key=ZThiOWU3YjhlMThlZjhjMjYwNGMxODUyOTljZjc1NTQ=&key2=N2ViZjk1ODMzMjlhOGRhOWI1MGYwMDYzYTMwYmNhZGQ=&play=1"
       },
       {
          "title": "ESPN EXTRA",
          "image": "https://sfntv.co/webp/logos/optimized/espnex.webp",
          "imageFiller": "smart",
-         "action": "link:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9FU1BOSEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9FU1BOSEQubXBk&key=Y2M4ZDQ0NDA2ZWQ2YmYxODk4YWQ5ZjdhMmQ2NGYyOWU=&key2=ZmI4NWQwNTk2ODdhYjBmYzY3ODA1ODA2MjA0ZWRiZGY=&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9FU1BOSEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9FU1BOSEQubXBk&key=Y2M4ZDQ0NDA2ZWQ2YmYxODk4YWQ5ZjdhMmQ2NGYyOWU=&key2=ZmI4NWQwNTk2ODdhYjBmYzY3ODA1ODA2MjA0ZWRiZGY=&play=1"
       },
       {
          "title": "FOX SPORTS",
          "image": "https://sfntv.co/webp/logos/optimized/fsport.webp",
          "imageFiller": "smart",
-         "action": "link:https://cosmefulanitoarg.github.io/msx/js/video.html?get=Ly8xMTE4LXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=NzZiZTgxMDQxZTcxMzNhMzg0NTdmMDk3ZDJiMDA0MWM=&key2=OGNlZDg0NmM5ZWZmZDU2ZDdlMmE5Mjc2MjI0YmIzYzU=&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=Ly8xMTE4LXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=NzZiZTgxMDQxZTcxMzNhMzg0NTdmMDk3ZDJiMDA0MWM=&key2=OGNlZDg0NmM5ZWZmZDU2ZDdlMmE5Mjc2MjI0YmIzYzU=&play=1"
       },
       {
          "title": "FOX SPORTS 2",
          "image": "https://sfntv.co/webp/logos/optimized/fsport2.webp",
          "imageFiller": "smart",
-         "action": "link:https://cosmefulanitoarg.github.io/msx/js/video.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9Gb3hTcG9ydHMySEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9Gb3hTcG9ydHMySEQubXBk&key=Yzk4ZGRmZmM0NzBmZTQ0OWFlMWE4ZDY0OTIxMTY5NzY=&key2=NTA4NmQzNzBlODQwMDEwMjMyY2Y0NTMyYjE2ZTE5N2Y=&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9Gb3hTcG9ydHMySEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9Gb3hTcG9ydHMySEQubXBk&key=Yzk4ZGRmZmM0NzBmZTQ0OWFlMWE4ZDY0OTIxMTY5NzY=&key2=NTA4NmQzNzBlODQwMDEwMjMyY2Y0NTMyYjE2ZTE5N2Y=&play=1"
       },
       {
          "title": "FOX SPORTS 3",
          "image": "https://sfntv.co/webp/logos/optimized/fsport3.webp",
          "imageFiller": "smart",
-         "action": "link:https://cosmefulanitoarg.github.io/msx/js/video.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9Gb3hTcG9ydHMzSEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9Gb3hTcG9ydHMzSEQubXBk&key=NTViNDczOTBjZjllNDk5N2RhZTZkYWM4NWUwNTc4NzU=&key2=ZmEzOWU4NTU1NDNjNWQ3MGYzMDYwMGQ1OWU1ZTRjMWI=&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9Gb3hTcG9ydHMzSEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9Gb3hTcG9ydHMzSEQubXBk&key=NTViNDczOTBjZjllNDk5N2RhZTZkYWM4NWUwNTc4NzU=&key2=ZmEzOWU4NTU1NDNjNWQ3MGYzMDYwMGQ1OWU1ZTRjMWI=&play=1"
       },
       {
          "title": "TV PUBLICA",
          "image": "https://sfntv.co/webp/logos/optimized/tvpublica.webp",
          "imageFiller": "smart",
-         "action": "link:https://embed.futbollibre.lol/cvattv/?get=Q2FuYWw3&play=1"
+         "action": "video:plugin:https://embed.futbollibre.lol/cvattv/?get=Q2FuYWw3&play=1"
       }, 
       {
          "title": "Test.TELEFE",
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9UZWxlZmVIRC9TQV9MaXZlX2Rhc2hfZW5jL1RlbGVmZUhELm1wZA==&key=M2MwNjRiYmExZTM3NGU1YTM4MWRkMGEzNDRmMTFjZWM=&key2=YTlkMTliY2EwMTJhZTg0YTZjZDAzOTVhN2E0ODA5ZjI="
-      },
-      {
-         "title": "Test.TELEFE",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?url=https://edge-vod03-hr.cvattv.com.ar/live/c6eds/TelefeHD/SA_Live_dash_enc/TelefeHD.mpd"
       }
    ]
 }
