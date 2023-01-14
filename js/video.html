@@ -23,35 +23,12 @@
 	}
 	</style>
 	<script type="text/javascript" src="//msx.benzac.de/js/tvx-plugin.min.js"></script>
-	<script type="text/javascript">
-	function getParameterByName(name) {
-		name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
-		var regex = new RegExp("[\?&]" + name + "=([^&#]*)"),
-			results = regex.exec(location.search);
-		return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-	}
-	var getURL = getParameterByName('get');
-	var getIMG = getParameterByName('img');
-	var getKEY = getParameterByName('key');
-	var getKEY2 = getParameterByName('key2');
-	if(getURL == "#") {
-		alert('Vuelve a la pagina anterior');
-	}
-	</script>
-	<script>
-	var play = getParameterByName('play');
-	if(play == "1") {
-		play = "true"
-	} else {
-		play = "false"
-	}
-	</script>
 </head>
 <script type="text/javascript">
-var playerInstance = jwplayer("player");
+var player = jwplayer("player");
 function MyPlayer() {
 	this.init = function() {
-    playerInstance.setup({
+    player.setup({
       playlist: [{
         "image": "https://sfntv.xyz/opa.webp",
         "sources": [{
@@ -83,7 +60,7 @@ function MyPlayer() {
     });
 	};
 	this.ready = function() {
-		playerInstance.play();
+		player.play();
 		TVXVideoPlugin.startPlayback(); //This will call the play function and will start the update process
 	};
 	this.play = function() {
