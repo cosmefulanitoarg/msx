@@ -29,7 +29,7 @@
          "title": "DIRECTV SPORTS",
          "image": "https://sfntv.co/webp/logos/optimized/dtvsports.webp",
          "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=aHR0cHM6Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNjAvbWFuaWZlc3QubXBk&key=ZTliYzZhMWM2NGUwNWMzNWFhNzJlMTJiMTZkMzUyNDc=&key2=MDdjMTczNWFkYWMxNWRlODc3ZGYzZjgxYjRmYzQ3MzE=&name=dtv"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://dtvott-cbc.akamaized.net/dash_live_1060/manifest.mpd&key=ZTliYzZhMWM2NGUwNWMzNWFhNzJlMTJiMTZkMzUyNDc=&key2=MDdjMTczNWFkYWMxNWRlODc3ZGYzZjgxYjRmYzQ3MzE"
       },
       {
          "title": "DIRECTV SPORTS 2",
