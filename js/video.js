@@ -33,6 +33,7 @@ function ShakaPlayer() {
     var onReady = function(event) {
         if (event != null && player != null && !ready) {
             ready = true;
+            TVXVideoPlugin.setupContentLabel("TV");
             TVXVideoPlugin.debug("Shaka video ready");
             TVXVideoPlugin.applyVolume();
             TVXVideoPlugin.startPlayback(true);
@@ -56,7 +57,6 @@ function ShakaPlayer() {
     this.init = function() {
         shaka.polyfill.installAll();
         if (shaka.Player.isBrowserSupported()) {
-            TVXVideoPlugin.setupContentLabel("TV");
             TVXVideoPlugin.hidePlayer();//Hides the player.
             let keys;
             player = document.getElementById("player");
