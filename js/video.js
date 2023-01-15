@@ -32,7 +32,6 @@ function ShakaPlayer() {
     };
     var onReady = function(event) {
         if (event != null && player != null && !ready) {
-            TVXVideoPlugin.hidePlayer();//Hides the player.
             ready = true;
             TVXVideoPlugin.debug("Shaka video ready");
             TVXVideoPlugin.applyVolume();
@@ -57,6 +56,8 @@ function ShakaPlayer() {
     this.init = function() {
         shaka.polyfill.installAll();
         if (shaka.Player.isBrowserSupported()) {
+            TVXVideoPlugin.setupContentLabel("TV");
+            TVXVideoPlugin.hidePlayer();//Hides the player.
             let keys;
             player = document.getElementById("player");
             player.addEventListener("canplay", onReady);
@@ -85,7 +86,6 @@ function ShakaPlayer() {
     this.ready = function() {
         if (error == null) {
             if (player != null && playerExtension != null) {
-                TVXVideoPlugin.setupContentLabel("TV");
                 TVXVideoPlugin.debug("Video plugin ready");
                 if(mpd == null){
                     mpd = atob(TVXServices.urlParams.get("get"));
