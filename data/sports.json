@@ -98,10 +98,6 @@
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=Q2FuYWw3&play=1"
       }, 
       {
-         "title": "River vs Millonarios",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://live-ftc-na-south-2.media.starott.com/clt2/va01/starplus/event/2023/01/15/River_Plate_vs_Millonario_20230115_1673735451321/ctr-all-complete.m3u8&key=bf331fb7428b465788f8150a23cd89d2&key2=ed07ce4cd03b9597d27e26fd2bbe0dd9"
-      },
-      {
          "title": "Test.TELEFE",
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9UZWxlZmVIRC9TQV9MaXZlX2Rhc2hfZW5jL1RlbGVmZUhELm1wZA==&key=M2MwNjRiYmExZTM3NGU1YTM4MWRkMGEzNDRmMTFjZWM=&key2=YTlkMTliY2EwMTJhZTg0YTZjZDAzOTVhN2E0ODA5ZjI="
       }
