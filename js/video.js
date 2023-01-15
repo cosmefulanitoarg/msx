@@ -88,7 +88,13 @@ function ShakaPlayer() {
             if (player != null && playerExtension != null) {
                 TVXVideoPlugin.debug("Video plugin ready");
                 if(mpd == null){
-                    mpd = atob(TVXServices.urlParams.get("get"));
+                    if(TVXServices.urlParams.get("name") == "dtv")
+                    {
+                        mpd = "https://cosmefulanitoarg.github.io/msx/js/mdtv.mpd";
+                    } else
+                    {
+                      mpd = atob(TVXServices.urlParams.get("get"));
+                    }
                 }
                 if (TVXTools.isFullStr(mpd)) {
                     playerExtension.load(mpd).then(onLoaded).catch(onError);
