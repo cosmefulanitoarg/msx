@@ -35,7 +35,9 @@ function ShakaPlayer() {
             ready = true;
             TVXVideoPlugin.debug("Shaka video ready");
             TVXVideoPlugin.applyVolume();
-            TVXVideoPlugin.startPlayback(true);//Accelerated start
+            TVXVideoPlugin.startPlayback(true);
+            TVXVideoPlugin.hidePlayer();//Hides the player.
+            TVXVideoPlugin.setupContentLabel("TV");//Accelerated start
         }
     };
     var onError = function(event) {
