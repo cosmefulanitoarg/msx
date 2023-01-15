@@ -17,7 +17,7 @@
          "title": "TNT SPORTS",
          "image": "https://sfntv.co/webp/logos/optimized/tnsport.webp",
          "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=https://dtvott-cbc.akamaized.net/dash_live_1060/manifest.mpd&key=e9bc6a1c64e05c35aa72e12b16d35247=&key2=07c1735adac15de877df3f81b4fc4731"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=https://dtvott-cbc.akamaized.net/dash_live_1060/manifest.mpd&key=e9bc6a1c64e05c35aa72e12b16d35247=&key2=81324009511de3ff21e90e52df808076"
       },
       {
          "title": "TYC SPORTS",
@@ -29,7 +29,7 @@
          "title": "DIRECTV SPORTS",
          "image": "https://sfntv.co/webp/logos/optimized/dtvsports.webp",
          "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://dtvott-cbc.akamaized.net/dash_live_1060/manifest.mpd&key=e9bc6a1c64e05c35aa72e12b16d35247&key2=07c1735adac15de877df3f81b4fc4731"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://1062-abc.dtvott.com/dash_live_1062/manifest.mpd&key=faa1953009425668857b1aea4beb5a92&key2=07c1735adac15de877df3f81b4fc4731"
       },
       {
          "title": "DIRECTV SPORTS 2",
