@@ -32,12 +32,11 @@ function ShakaPlayer() {
     };
     var onReady = function(event) {
         if (event != null && player != null && !ready) {
+            TVXVideoPlugin.hidePlayer();//Hides the player.
             ready = true;
             TVXVideoPlugin.debug("Shaka video ready");
             TVXVideoPlugin.applyVolume();
             TVXVideoPlugin.startPlayback(true);
-            TVXVideoPlugin.hidePlayer();//Hides the player.
-            TVXVideoPlugin.setupContentLabel("TV");//Accelerated start
         }
     };
     var onError = function(event) {
@@ -86,6 +85,7 @@ function ShakaPlayer() {
     this.ready = function() {
         if (error == null) {
             if (player != null && playerExtension != null) {
+                TVXVideoPlugin.setupContentLabel("TV");
                 TVXVideoPlugin.debug("Video plugin ready");
                 if(mpd == null){
                     mpd = atob(TVXServices.urlParams.get("get"));
