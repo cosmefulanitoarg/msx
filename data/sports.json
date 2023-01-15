@@ -98,8 +98,8 @@
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=Q2FuYWw3&play=1"
       },
       {
-         "title": "Chelsea vs Crystal Palace",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://live-ftc-na-south-2.media.starott.com/clt2/va01/starplus/event/2023/01/15/Chelsea_vs_Crystal_Palace_20230115_1673785535039/ctr-all-complete.m3u8&key=6072f9bfc33f43978520d387d9f8954c&key2=f1dcf604623d57a506c59e3f2a5f64c0"
+         "title": "Star.Evento",
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://live-ftc-na-south-2.media.starott.com/clt2/va01/starplus/event/2023/01/15/Real_Madrid_vs_Barcelona_20230115_1673803517034/ctr-all-complete.m3u8&key=4c5ad49ecdd54d48b37afa04b5d1fe7a&key2=9da1cdad9a4d0a125c0497c548cab43f"
       },
       {
          "title": "Test.TELEFE",
