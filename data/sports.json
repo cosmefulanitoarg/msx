@@ -96,7 +96,11 @@
          "image": "https://sfntv.co/webp/logos/optimized/tvpublica.webp",
          "imageFiller": "smart",
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=Q2FuYWw3&play=1"
-      }, 
+      },
+      {
+         "title": "Chelsea vs Crystal Palace",
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://live-ftc-na-south-2.media.starott.com/clt2/va01/starplus/event/2023/01/15/Chelsea_vs_Crystal_Palace_20230115_1673785535039/ctr-all-complete.m3u8&key=6072f9bfc33f43978520d387d9f8954c&key2=f1dcf604623d57a506c59e3f2a5f64c0"
+      },
       {
          "title": "Test.TELEFE",
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9UZWxlZmVIRC9TQV9MaXZlX2Rhc2hfZW5jL1RlbGVmZUhELm1wZA==&key=M2MwNjRiYmExZTM3NGU1YTM4MWRkMGEzNDRmMTFjZWM=&key2=YTlkMTliY2EwMTJhZTg0YTZjZDAzOTVhN2E0ODA5ZjI="
