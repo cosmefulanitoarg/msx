@@ -1,6 +1,5 @@
 # Tutorial deportes
 
-dudas: cosmito98@yahoo.com
 
 1. Ir a Aplicaciones, en la categoria Estilo de vida buscar la aplicacion Media Station X
 ![media station](https://i.postimg.cc/VNLk1h86/Whats-App-Image-2023-01-14-at-18-37-36.jpg)
