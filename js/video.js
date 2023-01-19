@@ -1,8 +1,3 @@
-/******************************************************************************/
-//ShakaPlayer v0.0.3 (lib v4.1.2)
-//(c) 2020 Benjamin Zachey
-//related API: https://shaka-player-demo.appspot.com/docs/api/index.html
-/******************************************************************************/
 function ShakaPlayer() {
     var player = null;
     var playerExtension = null;
@@ -88,13 +83,7 @@ function ShakaPlayer() {
             if (player != null && playerExtension != null) {
                 TVXVideoPlugin.debug("Video plugin ready");
                 if(mpd == null){
-                    if(TVXServices.urlParams.get("name") == "dtv")
-                    {
-                        mpd = "https://cosmefulanitoarg.github.io/msx/js/mdtv.mpd";
-                    } else
-                    {
                       mpd = atob(TVXServices.urlParams.get("get"));
-                    }
                 }
                 if (TVXTools.isFullStr(mpd)) {
                     playerExtension.load(mpd).then(onLoaded).catch(onError);
