@@ -29,7 +29,7 @@
          "title": "DIRECTV SPORTS",
          "image": "https://sfntv.co/webp/logos/optimized/dtvsports.webp",
          "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://1062-abc.dtvott.com/dash_live_1062/manifest.mpd&key=faa1953009425668857b1aea4beb5a92&key2=07c1735adac15de877df3f81b4fc4731"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=aHR0cHM6Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNjAvbWFuaWZlc3QubXBk&key=ZTliYzZhMWM2NGUwNWMzNWFhNzJlMTJiMTZkMzUyNDc=&key2=MDdjMTczNWFkYWMxNWRlODc3ZGYzZjgxYjRmYzQ3MzE="
       },
       {
          "title": "DIRECTV SPORTS 2",
@@ -41,7 +41,7 @@
          "title": "DIRECTV SPORTS +",
          "image": "https://sfntv.co/webp/logos/optimized/dtvsportsplus.webp",
          "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNzEvbWFuaWZlc3QubXBk&key=ZjE5YzNhOGM2MzhkNTJjMmFiNzdiOTU2NmJjYjI5OTY=&key2=ZTRmYWJmMzlkMjNjZDY1NTdmYTcxYjZlNzU0ZWYxZTc=&play=1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNzEvbWFuaWZlc3QubXBk&key=ZjE5YzNhOGM2MzhkNTJjMmFiNzdiOTU2NmJjYjI5OTY=&key2=ZTRmYWJmMzlkMjNjZDY1NTdmYTcxYjZlNzU0ZWYxZTc="
       },
       {
          "title": "ESPN",
@@ -99,10 +99,14 @@
       },
       {
          "title": "Star.Evento",
+         "image": "https://futbollibre.lol/img/logo-canal/logo-starplus.png",
+         "imageFiller": "smart",
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://live-ftc-na-south-2.media.starott.com/clt2/va01/starplus/event/2023/01/19/PSG_vs_Al_NassrAl_Hilal_A_20230119_1674141628026/ctr-all-complete.m3u8&key=6e0ae8c1dd7f4d499e85fcff5c866117&key2=036f716f3e6fa8e3f590ef4845bb45ba"
       },
       {
-         "title": "Test.TELEFE",
+         "title": "Telefe,
+         "image": "https://sfntv.co/webp/logos/optimized/telefe.webp",
+         "imageFiller": "smart",
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9UZWxlZmVIRC9TQV9MaXZlX2Rhc2hfZW5jL1RlbGVmZUhELm1wZA==&key=M2MwNjRiYmExZTM3NGU1YTM4MWRkMGEzNDRmMTFjZWM=&key2=YTlkMTliY2EwMTJhZTg0YTZjZDAzOTVhN2E0ODA5ZjI="
       }
    ]
