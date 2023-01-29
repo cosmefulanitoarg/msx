@@ -50,6 +50,12 @@
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9FU1BOMkhEL1NBX0xpdmVfZGFzaF9lbmMvRVNQTjJIRC5tcGQ=&key=ZTg4NGI3MTFhYjExMWJlYjhhN2JhMWU3YmNiZGM5YmY=&key2=Y2I4OWVlMzk2MTU5OWUzZTY0OGE1YWFkNjA4OTVmMzQ=&play=1"
       },
       {
+         "title": "ESPN MX",
+         "image": "https://sfntv.co/webp/logos/optimized/espn.webp",
+         "imageFiller": "smart",
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://1108-vos.dtvott.com/DASH&key=591cdbc97034330b849614a6efbfdfd4&key2=d664407707d260f93908121d84df4eba"
+      },
+      {
          "title": "ESPN 2",
          "image": "https://sfntv.co/webp/logos/optimized/espn2.webp",
          "imageFiller": "smart",
