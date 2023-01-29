@@ -53,7 +53,7 @@
          "title": "ESPN MX",
          "image": "https://sfntv.co/webp/logos/optimized/espn.webp",
          "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://1108-vos.dtvott.com/DASH&key=591cdbc97034330b849614a6efbfdfd4&key2=d664407707d260f93908121d84df4eba"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://1108-vos.dtvott.com/DASH/manifest.mpd&key=591cdbc97034330b849614a6efbfdfd4&key2=d664407707d260f93908121d84df4eba"
       },
       {
          "title": "ESPN 2",
