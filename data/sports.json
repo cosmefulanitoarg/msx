@@ -107,7 +107,7 @@
          "title": "Star.Evento",
          "image": "https://futbollibre.lol/img/logo-canal/logo-starplus.png",
          "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://live-ftc-na-south-2.media.starott.com/clt2/va01/starplus/event/2023/01/19/PSG_vs_Al_NassrAl_Hilal_A_20230119_1674141628026/ctr-all-complete.m3u8&key=6e0ae8c1dd7f4d499e85fcff5c866117&key2=036f716f3e6fa8e3f590ef4845bb45ba"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://live-ftc-na-south-2.media.starott.com/clt2/va01/starplus/event/2023/01/29/Brighton_vs_Liverpool_Fou_20230129_1674993019036/ctr-all-complete.m3u8&key=bc18485db7564f4eb53eaf28fbc90aeb&key2=652118f881bd22bc2e6140d1d2cbc0bc"
       },
       {
          "title": "DAZN",
