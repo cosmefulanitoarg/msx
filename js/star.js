@@ -77,6 +77,7 @@ function ShakaPlayer() {
             error = null;   
             var eventManager = new shaka.util.EventManager();
             eventManager.listen(player, `mediaqualitychanged`, (event) => {
+                console.log(event);
                 TVXVideoPlugin.setSize(player.videoWidth,player.videoHeight)
             });
         } else {
