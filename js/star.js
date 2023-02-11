@@ -75,11 +75,9 @@ function ShakaPlayer() {
             });
             playerExtension.addEventListener("error", onError);
             error = null;   
-            var eventManager = new shaka.util.EventManager();
-            eventManager.listen(player, `mediaqualitychanged`, (event) => {
-                console.log(event);
-                TVXVideoPlugin.setSize(player.videoWidth,player.videoHeight)
-            });
+            const video = document.querySelector("video");
+            video.setAttribute("height", "window.innerHeight");
+            video.setAttribute("width", "window.innerWidth");
         } else {
             error = "Browser is not supported";
         }
