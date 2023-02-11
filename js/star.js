@@ -12,7 +12,7 @@ function ShakaPlayer() {
     var mpd = null;
     
                 var eventManager = new shaka.util.EventManager();
-            eventManager.listen(player, `quality`, (event) => {
+            eventManager.listen(player, `mediaqualitychanged`, (event) => {
                 console.log(event);
             });
 
