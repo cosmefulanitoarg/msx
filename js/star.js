@@ -10,11 +10,6 @@ function ShakaPlayer() {
     var ended = false;
     var error = null;
     var mpd = null;
-    
-                var eventManager = new shaka.util.EventManager();
-            eventManager.listen(player, `mediaqualitychanged`, (event) => {
-                console.log(event);
-            });
 
     var getErrorCategory = function(errorCategory) {
         for (var category in shaka.util.Error.Category) {
@@ -79,7 +74,11 @@ function ShakaPlayer() {
               preferredAudioLanguage: 'es'
             });
             playerExtension.addEventListener("error", onError);
-            error = null;
+            error = null;   
+            var eventManager = new shaka.util.EventManager();
+            eventManager.listen(player, `mediaqualitychanged`, (event) => {
+                console.log(event);
+            });
         } else {
             error = "Browser is not supported";
         }
