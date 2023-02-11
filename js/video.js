@@ -75,8 +75,8 @@ function ShakaPlayer() {
             playerExtension.addEventListener("error", onError);
             error = null;
             const video = document.querySelector("video");
-            video.setAttribute("height", "window.innerHeight");
-            video.setAttribute("width", "window.innerWidth");
+            video.setAttribute("height", window.innerHeight);
+            video.setAttribute("width", window.innerWidth);
         } else {
             error = "Browser is not supported";
         }
