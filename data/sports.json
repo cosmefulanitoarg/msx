@@ -107,7 +107,7 @@
          "title": "Star.Evento",
          "image": "https://futbollibre.lol/img/logo-canal/logo-starplus.png",
          "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://live-ftc-na-south-2.media.starott.com/gru1/qb01/starplus/event/2023/02/11/West_Ham_United_vs_Chelse_20230211_1676112003070/ctr-all-complete.m3u8&key=ZGRlZjUwMTI0ODNiZGM2ODYyNjRiYzcyNzM0OGRhZmQ=&key2=ZGVhNzY0NDhhMmMwYmNmYWExMzI5MzU5MjlhZWY1YTI="
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://live-ftc-na-south-2.media.starott.com/gru1/qb01/starplus/event/2023/02/11/West_Ham_United_vs_Chelse_20230211_1676112003070/ctr-all-complete.m3u8&key=ZGRlZjUwMTI0ODNiZGM2ODYyNjRiYzcyNzM0OGRhZmQ&key2=ZGVhNzY0NDhhMmMwYmNmYWExMzI5MzU5MjlhZWY1YTI"
       },
       {
          "title": "DAZN",
