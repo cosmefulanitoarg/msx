@@ -107,7 +107,7 @@
          "title": "Star.Evento",
          "image": "https://futbollibre.lol/img/logo-canal/logo-starplus.png",
          "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://live-ftc-na-south-2.media.starott.com/clt2/va01/starplus/event/2023/01/29/Brighton_vs_Liverpool_Fou_20230129_1674993019036/ctr-all-complete.m3u8&key=bc18485db7564f4eb53eaf28fbc90aeb&key2=652118f881bd22bc2e6140d1d2cbc0bc"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://live-ftc-na-south-2.media.starott.com/gru1/qb01/starplus/event/2023/02/11/West_Ham_United_vs_Chelse_20230211_1676112003070/ctr-all-complete.m3u8&key=bc18485db7564f4eb53eaf28fbc90aeb&key2=652118f881bd22bc2e6140d1d2cbc0bc"
       },
       {
          "title": "DAZN",
@@ -119,7 +119,7 @@
          "title": "Telefe",
          "image": "https://sfntv.co/webp/logos/optimized/telefe.webp",
          "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9UZWxlZmVIRC9TQV9MaXZlX2Rhc2hfZW5jL1RlbGVmZUhELm1wZA==&key=M2MwNjRiYmExZTM3NGU1YTM4MWRkMGEzNDRmMTFjZWM=&key2=YTlkMTliY2EwMTJhZTg0YTZjZDAzOTVhN2E0ODA5ZjI="
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9UZWxlZmVIRC9TQV9MaXZlX2Rhc2hfZW5jL1RlbGVmZUhELm1wZA==&key=ZGRlZjUwMTI0ODNiZGM2ODYyNjRiYzcyNzM0OGRhZmQ=&key2=ZGVhNzY0NDhhMmMwYmNmYWExMzI5MzU5MjlhZWY1YTI="
       }
    ]
 }
