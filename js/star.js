@@ -10,6 +10,11 @@ function ShakaPlayer() {
     var ended = false;
     var error = null;
     var mpd = null;
+    
+                var eventManager = new shaka.util.EventManager();
+            eventManager.listen(player, `quality`, (event) => {
+                console.log(event);
+            });
 
     var getErrorCategory = function(errorCategory) {
         for (var category in shaka.util.Error.Category) {
