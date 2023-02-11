@@ -73,7 +73,6 @@ function ShakaPlayer() {
               preferredAudioLanguage: 'es'
             });
             playerExtension.addEventListener("error", onError);
-            playerExtension.requestFullscreen();
             error = null;
         } else {
             error = "Browser is not supported";
