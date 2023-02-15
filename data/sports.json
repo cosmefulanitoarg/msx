@@ -104,6 +104,12 @@
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://dce-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-017/stream.mpd&key=cfb5e2b73bef4f3c878f25ab86a7451f&key2=0d6712bf2a84edcc93d001a9613f6fec"
       },
       {
+         "title": "DAZN ES",
+         "image": "https://sfntv.co/webp/logos/optimized/dazn1.webp",
+         "imageFiller": "smart",
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/dazn.html?get=https://dce-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-037/stream.mpd"
+      },
+      {
          "title": "Eurosports",
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9kY2UtZnMtbGl2ZS1kYXpuLWNkbi5kYXpuLmNvbS9kYXNoZHJtL2Rhem4tbGluZWFyLTAzMi9zdHJlYW0ubXBk&key=Y2ZiNWUyYjczYmVmNGYzYzg3OGYyNWFiODZhNzQ1MWY=&key2=MGQ2NzEyYmYyYTg0ZWRjYzkzZDAwMWE5NjEzZjZmZWM="
       },
