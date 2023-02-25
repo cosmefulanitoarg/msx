@@ -107,7 +107,7 @@
          "title": "DAZN ES",
          "image": "https://sfntv.co/webp/logos/optimized/dazn1.webp",
          "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/dazn.html?get=https://dce-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-037/stream.mpd"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://dce-ak-livewwdazn.akamaized.net/dashdrm/dazn-linear-038/stream.mpd?p=web&key=82f8e2a17dac44c0a18f660479349c59&key2=1b144f73e6fefe91cd05f850e2b589d0"
       },
       {
          "title": "Eurosports",
