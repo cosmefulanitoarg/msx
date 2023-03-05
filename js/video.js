@@ -28,6 +28,9 @@ function ShakaPlayer() {
     var onReady = function(event) {
         if (event != null && player != null && !ready) {
             ready = true;
+            TVXVideoPlugin.disableButton("Forward");
+            TVXVideoPlugin.disableButton("Rewind");
+            TVXVideoPlugin.disableProgressMarker();
             TVXVideoPlugin.setupContentLabel("TV");
             TVXVideoPlugin.debug("Shaka video ready");
             TVXVideoPlugin.applyVolume();
