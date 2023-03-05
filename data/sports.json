@@ -104,19 +104,11 @@
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://dce-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-017/stream.mpd&key=cfb5e2b73bef4f3c878f25ab86a7451f&key2=0d6712bf2a84edcc93d001a9613f6fec"
       },
       {
-         "title": "DAZN ES",
-         "image": "https://sfntv.co/webp/logos/optimized/dazn1.webp",
+         "title": "DAZN 2 ES",
+         "image": "https://sfntv.co/webp/logos/optimized/dazn2.webp",
          "imageFiller": "smart",
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://dce-ak-livewwdazn.akamaized.net/dashdrm/dazn-linear-038/stream.mpd?p=web&key=82f8e2a17dac44c0a18f660479349c59&key2=1b144f73e6fefe91cd05f850e2b589d0"
-      },
-      {
-         "title": "Eurosports",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9kY2UtZnMtbGl2ZS1kYXpuLWNkbi5kYXpuLmNvbS9kYXNoZHJtL2Rhem4tbGluZWFyLTAzMi9zdHJlYW0ubXBk&key=Y2ZiNWUyYjczYmVmNGYzYzg3OGYyNWFiODZhNzQ1MWY=&key2=MGQ2NzEyYmYyYTg0ZWRjYzkzZDAwMWE5NjEzZjZmZWM="
-      },
-      {
-         "title": "Vsport",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://director.streaming.telia.com/tvm-packager-prod/group1/60896c3647a23d7f115cd57a/manifest.mpd&key=cbd13b7a883e53e98d5c7f34d0013be8&key2=d5bc9e92f214d77520ab7faa1ecad10b"
-      },
+      }
       {
          "title": "TV PUBLICA",
          "image": "https://sfntv.co/webp/logos/optimized/tvpublica.webp",
