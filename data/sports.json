@@ -119,7 +119,7 @@
          "title": "Star.Evento",
          "image": "https://futbollibre.lol/img/logo-canal/logo-starplus.png",
          "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://live-ftc-na-south-2.media.starott.com/gru1/qb01/starplus/event/2023/03/05/Inter_vs_Lecce_20230305_1678029010216/ctr-all-complete.m3u8&key=cf4ded5f85584da78a09689e4b993c8c&key2=899f2005151e24c75d09fb693216a4e1"
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://live-ftc-na-south-2.media.starott.com/gru1/qb01/starplus/event/2023/03/05/Rayo_Vallecano_vs_Athleti_20230305_1678031457028/ctr-all-complete.m3u8&key=27e1a564461f417382cce6e53f1667f5&key2=0f331684f6ce0cc7a4027e3d2043decd"
       },
       {
          "title": "Telefe",
