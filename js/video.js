@@ -37,8 +37,6 @@ function ShakaPlayer() {
             TVXVideoPlugin.disableButton("restart");
             TVXVideoPlugin.disableButton("rewind");
             TVXVideoPlugin.disableButton("speed");
-            TVXVideoPlugin.disableButton("previous");
-            TVXVideoPlugin.disableButton("next");
         }
     };
     var onError = function(event) {
