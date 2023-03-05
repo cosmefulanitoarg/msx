@@ -26,24 +26,6 @@
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly8xMjQwLXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=NGQ0NWI3OWQ0NDg3MzQzNTg5MDU4YWI0OWRkZjhjZjA=&key2=YWE3Zjk1ZjcxYTNjZmU0MGFhNTk5MDRmOTI4NWFmNzI="
       },
       {
-         "title": "DIRECTV SPORTS",
-         "image": "https://sfntv.co/webp/logos/optimized/dtvsports.webp",
-         "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://1062-abc.dtvott.com/dash_live_1062/manifest.mpd&key=faa1953009425668857b1aea4beb5a92&key2=81324009511de3ff21e90e52df808076"
-      },
-      {
-         "title": "DIRECTV SPORTS 2",
-         "image": "https://sfntv.co/webp/logos/optimized/dtvsports2.webp",
-         "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9kdHZvdHQtYWthd3MuYWthbWFpemVkLm5ldC9saXZlXzEwNjMvREFTSC9tYW5pZmVzdC5tcGQ=&key=YWIwMjBhMTcxMGQ2MzAxNjhkZTIxNjk4Mzc1YTQzOWM=&key2=MjM1ODk4Y2RiMTBiMGNkYmEzNWVhMmNlOTRmYmIxZmI=&play=1"
-      },
-      {
-         "title": "DIRECTV SPORTS +",
-         "image": "https://sfntv.co/webp/logos/optimized/dtvsportsplus.webp",
-         "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNzEvbWFuaWZlc3QubXBk&key=ZjE5YzNhOGM2MzhkNTJjMmFiNzdiOTU2NmJjYjI5OTY=&key2=ZTRmYWJmMzlkMjNjZDY1NTdmYTcxYjZlNzU0ZWYxZTc="
-      },
-      {
          "title": "ESPN",
          "image": "https://sfntv.co/webp/logos/optimized/espn.webp",
          "imageFiller": "smart",
@@ -80,6 +62,36 @@
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9lZGdlLXZvZDAzLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9FU1BOSEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9FU1BOSEQubXBk&key=Y2M4ZDQ0NDA2ZWQ2YmYxODk4YWQ5ZjdhMmQ2NGYyOWU=&key2=ZmI4NWQwNTk2ODdhYjBmYzY3ODA1ODA2MjA0ZWRiZGY=&play=1"
       },
       {
+         "title": "DAZN",
+         "image": "https://sfntv.co/webp/logos/optimized/dazn1.webp",
+         "imageFiller": "smart",
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://dce-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-017/stream.mpd&key=cfb5e2b73bef4f3c878f25ab86a7451f&key2=0d6712bf2a84edcc93d001a9613f6fec"
+      },
+      {
+         "title": "DAZN 2 ES",
+         "image": "https://sfntv.co/webp/logos/optimized/dazn2.webp",
+         "imageFiller": "smart",
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://dce-ak-livewwdazn.akamaized.net/dashdrm/dazn-linear-038/stream.mpd?p=web&key=82f8e2a17dac44c0a18f660479349c59&key2=1b144f73e6fefe91cd05f850e2b589d0"
+      },
+      {
+         "title": "DIRECTV SPORTS",
+         "image": "https://sfntv.co/webp/logos/optimized/dtvsports.webp",
+         "imageFiller": "smart",
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://1062-abc.dtvott.com/dash_live_1062/manifest.mpd&key=faa1953009425668857b1aea4beb5a92&key2=81324009511de3ff21e90e52df808076"
+      },
+      {
+         "title": "DIRECTV SPORTS 2",
+         "image": "https://sfntv.co/webp/logos/optimized/dtvsports2.webp",
+         "imageFiller": "smart",
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9kdHZvdHQtYWthd3MuYWthbWFpemVkLm5ldC9saXZlXzEwNjMvREFTSC9tYW5pZmVzdC5tcGQ=&key=YWIwMjBhMTcxMGQ2MzAxNjhkZTIxNjk4Mzc1YTQzOWM=&key2=MjM1ODk4Y2RiMTBiMGNkYmEzNWVhMmNlOTRmYmIxZmI=&play=1"
+      },
+      {
+         "title": "DIRECTV SPORTS +",
+         "image": "https://sfntv.co/webp/logos/optimized/dtvsportsplus.webp",
+         "imageFiller": "smart",
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNzEvbWFuaWZlc3QubXBk&key=ZjE5YzNhOGM2MzhkNTJjMmFiNzdiOTU2NmJjYjI5OTY=&key2=ZTRmYWJmMzlkMjNjZDY1NTdmYTcxYjZlNzU0ZWYxZTc="
+      },
+      {
          "title": "FOX SPORTS",
          "image": "https://sfntv.co/webp/logos/optimized/fsport.webp",
          "imageFiller": "smart",
@@ -97,18 +109,6 @@
          "imageFiller": "smart",
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9Gb3hTcG9ydHMzSEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9Gb3hTcG9ydHMzSEQubXBk&key=NTViNDczOTBjZjllNDk5N2RhZTZkYWM4NWUwNTc4NzU=&key2=ZmEzOWU4NTU1NDNjNWQ3MGYzMDYwMGQ1OWU1ZTRjMWI=&play=1"
       },
-      {
-         "title": "DAZN",
-         "image": "https://sfntv.co/webp/logos/optimized/dazn1.webp",
-         "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://dce-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-017/stream.mpd&key=cfb5e2b73bef4f3c878f25ab86a7451f&key2=0d6712bf2a84edcc93d001a9613f6fec"
-      },
-      {
-         "title": "DAZN 2 ES",
-         "image": "https://sfntv.co/webp/logos/optimized/dazn2.webp",
-         "imageFiller": "smart",
-         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://dce-ak-livewwdazn.akamaized.net/dashdrm/dazn-linear-038/stream.mpd?p=web&key=82f8e2a17dac44c0a18f660479349c59&key2=1b144f73e6fefe91cd05f850e2b589d0"
-      }
       {
          "title": "TV PUBLICA",
          "image": "https://sfntv.co/webp/logos/optimized/tvpublica.webp",
