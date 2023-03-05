@@ -147,7 +147,7 @@ function ShakaPlayer() {
     };
     this.setPosition = function(position) {
         if (player != null) {
-            player.currentTime = position;
+            player.goToLive()
         }
     };
     this.setVolume = function(volume) {
