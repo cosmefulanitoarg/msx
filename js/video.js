@@ -28,13 +28,17 @@ function ShakaPlayer() {
     var onReady = function(event) {
         if (event != null && player != null && !ready) {
             ready = true;
-            TVXVideoPlugin.disableButton("previous");
-            TVXVideoPlugin.disableButton("next");
             TVXVideoPlugin.disableProgressMarker();
             TVXVideoPlugin.setupContentLabel("TV");
             TVXVideoPlugin.debug("Shaka video ready");
             TVXVideoPlugin.applyVolume();
             TVXVideoPlugin.startPlayback(true);
+            TVXVideoPlugin.disableProgressMarker();
+            TVXVideoPlugin.disableButton("restart");
+            TVXVideoPlugin.disableButton("rewind");
+            TVXVideoPlugin.disableButton("speed");
+            TVXVideoPlugin.disableButton("previous");
+            TVXVideoPlugin.disableButton("next");
         }
     };
     var onError = function(event) {
