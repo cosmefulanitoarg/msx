@@ -38,6 +38,12 @@
          "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/star.html?get=https://1108-vos.dtvott.com/DASH/manifest.mpd&key=591cdbc97034330b849614a6efbfdfd4&key2=d664407707d260f93908121d84df4eba"
       },
       {
+         "title": "ESPN 2 MX",
+         "image": "https://sfntv.co/webp/logos/optimized/espn2.webp",
+         "imageFiller": "smart",
+         "action": "video:plugin:https://cosmefulanitoarg.github.io/msx/js/video.html?get=aHR0cHM6Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExMDAvbWFuaWZlc3QubXBk&key=MDZiM2FkZmJhOTg0NWM3YzkyNDcwNGZkOGI4ZGNkNjQ&key2=ZGNjYjJmZjEwNGRmMGJiYzU0ZGUwNmIzYzI3ODZmNWM"
+      },
+      {
          "title": "ESPN 2",
          "image": "https://sfntv.co/webp/logos/optimized/espn2.webp",
          "imageFiller": "smart",
